@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 构建产物
+build/
+dist/
+*.spec
+
+# 运行时数据（存档、成就、设置、崩溃日志）
+saves/
+*.log
+
+# 背景音乐：体积原因不入库，跑 asset_generator.py 重新生成
+assets/music/*.wav
+assets/music/*.mp3
+
+# IDE
+.vs/
+.vscode/
+.idea/
